@@ -1,0 +1,21 @@
+.container{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.titleContent{
+    margin-left: 60px;
+
+}
+.titlebutton{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    border: 1px solid rgb(95, 93, 93);
+    border-radius: 15px;
+    height: 30px;
+    box-shadow: 3px 7px 15px 0px rgba(167, 165, 165, 0.75) inset;
+-webkit-box-shadow: 3px 7px 15px 0px rgba(86, 84, 84, 0.75) inset;
+-moz-box-shadow: 3px 7px 15px 0px rgba(78, 76, 76, 0.75) inset;
+}

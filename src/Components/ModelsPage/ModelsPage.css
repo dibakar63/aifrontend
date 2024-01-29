@@ -1,5 +1,6 @@
 .ModelsPageDiv {
   padding: 0 2rem;
+  
 }
 .imgdiv {
   width: 100%;
@@ -67,10 +68,14 @@
 .card{
   border: 1px solid black;
   width: 400px;
+  border:none;
   height: 250px;
   border-radius: 15px;
   background-color: white;
   padding-left: 20px;
+  box-shadow: -8px 4px 28px 0px rgba(157,147,147,0.75);
+-webkit-box-shadow: -8px 4px 28px 0px rgba(157,147,147,0.75);
+-moz-box-shadow: -8px 4px 28px 0px rgba(157,147,147,0.75);
 }
 .AboutText{
   margin-top: 100px;
@@ -79,8 +84,39 @@
 .AboutText span{
   font-size: 50px;
 }
+
+  
+  
+  
 .card:hover{
-  box-shadow: -10px -5px 64px 0px rgba(234,40,160,0.68);
--webkit-box-shadow: -10px -5px 64px 0px rgba(234,40,160,0.68);
--moz-box-shadow: -10px -5px 64px 0px rgba(234,40,160,0.68);
+  box-shadow: -1px -3px 30px 0px rgba(224,88,204,0.84);
+-webkit-box-shadow: -1px -3px 30px 0px rgba(224,88,204,0.84);
+-moz-box-shadow: -1px -3px 30px 0px rgba(224,88,204,0.84);
+}
+      
+
+.card p{
+  color:gray;
+}
+.footerContent{
+  margin-top: 150px;
+  display: block;
+  text-align: center;
+
+
+}
+.footerContent span{
+  font-size: 60px;
+  font-weight: bold;
+}
+.footerContent p{
+  font-size: 20px;
+  color: gray;
+}
+.footerContent button{
+  width: 240px;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 15px;
+  margin-top: 10px;
 }
